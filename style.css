@@ -1,0 +1,38 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400&display=swap');
+
+* {
+    margin: 10px; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Code Pro", sans-serif; 
+}
+
+body {
+    margin-top: 50px;
+    position: relative; 
+}
+
+#legend-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 10px;
+}
+
+.legend-box {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+
+.legend span {
+    vertical-align: middle;
+}
+
+.textbox {
+    margin-top: 20px;
+    font-weight: bold;
+}
